@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Collapsible sidebar using Bootstrap 4</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style4.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div id="dismiss">
+                <i class="fas fa-arrow-left"></i>
+            </div>
+
+            <div class="sidebar-header">
+                <h3>Stella Maris Rowing Club</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p>East Coast Champions 18</p>
+                <li>
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Home</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#">Home 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Home 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Home 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="active">
+                    <a href="#">About</a>
+				</li>
+				<li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Pages</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="#">Page 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+
+         <!--   <ul class="list-unstyled CTAs">
+                <li>
+                    <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a>
+                </li>
+                <li>
+                    <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
+                </li>
+            </ul>-->
+        </nav>
+</div>
+        <!-- Page Content  -->
+        <div id="content">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <button id="sidebarCollapse" class="btn btn-default">
+          <i class="fa fa-bars fa-lg" aria-hidden="true"></i><span> Menu</span>
+      </button>
+    <a class="navbar-brand navbar-logo mx-auto" href="#">Stella Maris Rowing Club</a>
+    </div>
+    
+   <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                        </ul>
+                    </div>  -->
+    
+  </nav>
+			
+			<div class="well well-lg">Large Well
+			
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim ut. Vel facilisis volutpat est velit egestas dui id ornare arcu. Quis commodo odio aenean sed adipiscing diam donec adipiscing. Sed tempus urna et pharetra pharetra massa massa ultricies mi. Risus ultricies tristique nulla aliquet enim tortor at auctor. Odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer. Sed viverra tellus in hac habitasse platea dictumst vestibulum. Nam libero justo laoreet sit amet cursus sit. Nec ullamcorper sit amet risus nullam eget felis. Sem et tortor consequat id porta. Condimentum lacinia quis vel eros. Turpis tincidunt id aliquet risus feugiat in ante metus dictum. Nec feugiat in fermentum posuere urna. Senectus et netus et malesuada fames. Lectus arcu bibendum at varius vel pharetra vel turpis nunc. Vivamus at augue eget arcu dictum varius. Arcu ac tortor dignissim convallis aenean et.</p>
+			
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec dui nunc mattis enim ut. Vel facilisis volutpat est velit egestas dui id ornare arcu. Quis commodo odio aenean sed adipiscing diam donec adipiscing. Sed tempus urna et pharetra pharetra massa massa ultricies mi. Risus ultricies tristique nulla aliquet enim tortor at auctor. Odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer. Sed viverra tellus in hac habitasse platea dictumst vestibulum. Nam libero justo laoreet sit amet cursus sit. Nec ullamcorper sit amet risus nullam eget felis. Sem et tortor consequat id porta. Condimentum lacinia quis vel eros. Turpis tincidunt id aliquet risus feugiat in ante metus dictum. Nec feugiat in fermentum posuere urna. Senectus et netus et malesuada fames. Lectus arcu bibendum at varius vel pharetra vel turpis nunc. Vivamus at augue eget arcu dictum varius. Arcu ac tortor dignissim convallis aenean et.</p>
+			
+			In nulla posuere sollicitudin aliquam ultrices sagittis orci. Urna id volutpat lacus laoreet. Sed blandit libero volutpat sed cras ornare arcu. Ipsum consequat nisl vel pretium lectus quam id leo in. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus. Sit amet tellus cras adipiscing enim eu. Ut consequat semper viverra nam libero. Eget felis eget nunc lobortis. Sed blandit libero volutpat sed cras ornare. Duis ultricies lacus sed turpis. Suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Cursus vitae congue mauris rhoncus aenean vel. At volutpat diam ut venenatis. Magna fermentum iaculis eu non diam phasellus vestibulum lorem. Posuere urna nec tincidunt praesent semper. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu. Maecenas sed enim ut sem viverra aliquet eget sit amet. Erat pellentesque adipiscing commodo elit at imperdiet dui.
+
+			Mauris ultrices eros in cursus. Nulla pharetra diam sit amet nisl suscipit adipiscing. Egestas diam in arcu cursus. Tortor at auctor urna nunc id cursus. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl. Quisque sagittis purus sit amet volutpat. Integer feugiat scelerisque varius morbi enim nunc faucibus. Senectus et netus et malesuada fames ac turpis egestas sed. Laoreet id donec ultrices tincidunt. Quis auctor elit sed vulputate mi sit amet mauris commodo. Odio eu feugiat pretium nibh ipsum consequat nisl vel. Tellus molestie nunc non blandit massa. Cursus sit amet dictum sit amet justo donec. Mattis pellentesque id nibh tortor id aliquet lectus proin. Enim nulla aliquet porttitor lacus luctus accumsan. Proin libero nunc consequat interdum varius sit amet mattis. Varius morbi enim nunc faucibus a.
+
+			Tristique senectus et netus et malesuada fames. Consectetur adipiscing elit pellentesque habitant morbi tristique senectus. Consequat nisl vel pretium lectus. Eget aliquet nibh praesent tristique magna sit amet. Orci dapibus ultrices in iaculis nunc. Nibh tortor id aliquet lectus proin nibh nisl. Eu feugiat pretium nibh ipsum consequat. Mi tempus imperdiet nulla malesuada pellentesque elit eget. Adipiscing tristique risus nec feugiat in fermentum. Vel facilisis volutpat est velit egestas dui id ornare. Feugiat scelerisque varius morbi enim nunc faucibus.
+
+			Sodales ut eu sem integer vitae justo eget. Magnis dis parturient montes nascetur ridiculus mus. Nibh ipsum consequat nisl vel pretium lectus. Pharetra vel turpis nunc eget lorem dolor sed. Rutrum quisque non tellus orci ac auctor. In mollis nunc sed id semper risus. Fermentum leo vel orci porta non. Sed viverra tellus in hac habitasse platea dictumst vestibulum. Faucibus et molestie ac feugiat sed lectus. Non curabitur gravida arcu ac tortor.
+			
+			Tristique senectus et netus et malesuada fames. Consectetur adipiscing elit pellentesque habitant morbi tristique senectus. Consequat nisl vel pretium lectus. Eget aliquet nibh praesent tristique magna sit amet. Orci dapibus ultrices in iaculis nunc. Nibh tortor id aliquet lectus proin nibh nisl. Eu feugiat pretium nibh ipsum consequat. Mi tempus imperdiet nulla malesuada pellentesque elit eget. Adipiscing tristique risus nec feugiat in fermentum. Vel facilisis volutpat est velit egestas dui id ornare. Feugiat scelerisque varius morbi enim nunc faucibus.
+
+			Sodales ut eu sem integer vitae justo eget. Magnis dis parturient montes nascetur ridiculus mus. Nibh ipsum consequat nisl vel pretium lectus. Pharetra vel turpis nunc eget lorem dolor sed. Rutrum quisque non tellus orci ac auctor. In mollis nunc sed id semper risus. Fermentum leo vel orci porta non. Sed viverra tellus in hac habitasse platea dictumst vestibulum. Faucibus et molestie ac feugiat sed lectus. Non curabitur gravida arcu ac tortor.
+			
+			</div>
+		</div>	
+	
+    <div class="overlay"></div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#dismiss, .overlay').on('click', function () {
+                $('#sidebar').removeClass('active');
+                $('.overlay').removeClass('active');
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').addClass('active');
+                $('.overlay').addClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
+    
+</body>
+</html>
